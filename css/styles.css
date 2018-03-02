@@ -2,12 +2,16 @@ body {
   background-image: url("../image/img1.jpg");
   background-size: cover;
 }
-.jumbotron{
+
+.jumbotron {
+  align-content: center;
   width: 60%;
 }
-.jumbotron h1{
+
+.jumbotron h1 {
   text-align: center;
-  }  
+}
+
 .player-console {
   display: none;
 }
