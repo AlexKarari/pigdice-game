@@ -18,7 +18,7 @@ function Contender(turn) {
 Contender.prototype.rollone = function() {
   if (this.roll === 1) {
   this.temporaryscore = 0;
-  alert("Sorry " + this.participantName + ", OOPS! HAHA! You rolled a 1! Wait for your next turn!")
+  alert("OOPS! Sorry " + this.participantName + ", You rolled a 1! HAHA! Wait for your next turn!")
   } else {
   this.temporaryscore += this.roll;
   }
