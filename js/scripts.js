@@ -2,6 +2,8 @@
 var player1 = "";
 var player2 = "";
 
+
+//function to make randomize numbers
 var tossdice = function() {
   return Math.floor(6 * Math.random()) + 1;
 }

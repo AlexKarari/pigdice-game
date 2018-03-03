@@ -15,18 +15,21 @@
 
   <section id="commence">
     <div class="start-menu container">
+      <h1>PIG DICE</h1>
+      <h2>Game Time!</h2>
       <div class="jumbotron">
-        <h1>Game Time!</h1>
-        <form id="player-a">
+        <form id="players">
           <div class="form-group">
-            <label for="firstPlayerName">First Player:</label>
-            <input required class="firstPlayerName form-control" type="text" placeholder="Enter Your Name">
-          </div>
-        </form>
-        <form id="player-b">
-          <div class="form-group">
-            <label for="secondPlayerName">Second Player:</label>
-            <input required class="secondPlayerName form-control" type="text" placeholder="Enter your name">
+            <div class="row">
+              <div class="col-md-6">
+                <label for="firstPlayerName">First Player:</label>
+                <input required class="firstPlayerName form-control" type="text" placeholder="Enter First Player's Name">
+              </div>
+              <div class="col-md-6">
+                <label for="secondPlayerName">Second Player:</label>
+                <input required class="secondPlayerName form-control" type="text" placeholder="Enter Second Player's name">
+              </div>
+            </div>
           </div>
         </form>
         <button id="start" class="btn-info btn">LAUNCH</button>

@@ -3,13 +3,13 @@ body {
   background-size: cover;
 }
 
-.jumbotron {
-  align-content: center;
-  width: 60%;
+#commence h1, h2 {
+  text-align: center;
+  color: white;
 }
 
-.jumbotron h1 {
-  text-align: center;
+input {
+  width: 40%;
 }
 
 .player-console {
