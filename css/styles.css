@@ -15,3 +15,7 @@ body {
 .player-console {
   display: none;
 }
+
+#end h2, p {
+  color: white;
+}
