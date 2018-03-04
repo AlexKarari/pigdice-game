@@ -3,7 +3,7 @@ body {
   background-size: cover;
 }
 
-#commence h1, h2 {
+header h1, h2 {
   text-align: center;
   color: white;
 }
@@ -17,5 +17,9 @@ input {
 }
 
 #end h2, p {
-  color: white;
+  color: black;
+  text-align: left;
+}
+.well{
+  width: 70%;
 }
