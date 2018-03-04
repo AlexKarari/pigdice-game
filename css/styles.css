@@ -20,6 +20,12 @@ input {
   color: black;
   text-align: left;
 }
-.well{
-  width: 70%;
+
+#end #new-game {
+  position: relative;
+  left: 40%;
+}
+
+.well {
+  width: 65%;
 }
