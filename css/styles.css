@@ -16,14 +16,25 @@ input {
   display: none;
 }
 
+#commence #start {
+  background-color: blue;
+  position: fixed;
+  left: 47%;
+}
+
 #end h2, p {
   color: black;
   text-align: left;
 }
 
+#end button {
+  background-color: blue;
+}
+
 #end #new-game {
   position: relative;
   left: 40%;
+  background-color: blue;
 }
 
 .well {
